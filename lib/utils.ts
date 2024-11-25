@@ -12,3 +12,10 @@ export const formatDate = (date: string) => {
     year: "numeric",
   });
 };
+
+export const formatViews = (views: number) => {
+  if (views > 1) {
+    return `Views: ${views}`;
+  }
+  return `View: ${views}`;
+};

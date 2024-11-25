@@ -14,6 +14,7 @@ const nextConfig: NextConfig = {
   // PPR RENDERING
   experimental: {
     ppr: "incremental",
+    after: true,
   },
   devIndicators: {
     appIsrStatus: true,
